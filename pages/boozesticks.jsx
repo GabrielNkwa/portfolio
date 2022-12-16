@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import boozesticksImg from '../public/assets/projects/boozesticks.jpg'
 
@@ -34,7 +35,7 @@ const boozesticks = () => {
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 '>
             <div className='p-2'>
                 <p className='text-center font-bold pb-2'>Technologies</p>
-                <div className=''>
+                <div className='grid-cols-3 md:grid-cols-1'>
                         <p className='text-gray-600 py-2 flex items-center'>
                             <RiRadioButtonFill className='pr-1'/>React
                             </p>
@@ -51,6 +52,9 @@ const boozesticks = () => {
             </div>
             
             </div> 
+            <Link href='/#projects'>
+                <p className='underline cursor-pointer'>Back</p>
+            </Link>
     </div>
 </div>
     

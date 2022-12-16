@@ -19,21 +19,7 @@ const Projects = () => {
                backgroundImg={boozesticksImg} 
                projectUrl='/boozesticks'
                />
-               <ProjectItem 
-               title='Booze-and-Sticks' 
-               backgroundImg={boozesticksImg} 
-               projectUrl='/'
-               />
-               <ProjectItem 
-               title='Booze-and-Sticks' 
-               backgroundImg={boozesticksImg} 
-               projectUrl='/'
-               />
-               <ProjectItem 
-               title='Booze-and-Sticks' 
-               backgroundImg={boozesticksImg} 
-               projectUrl='/'
-               />
+              
 
 
 
