@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import Image from 'next/image'
 import Link from 'next/link'
 import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai'
