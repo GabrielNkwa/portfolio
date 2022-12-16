@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
+
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillPersonLinesFill} from 'react-icons/bs'
@@ -17,7 +17,7 @@ const Contact = () => {
 <div className='col-span-3 lg:col-span-2 shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4'>
     <div className='lg:p-4 h-full'>
             <div>
-                <Image className='rounded-xl hover:scale-105 ease-in duration-300' src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29udGFjdCUyMHVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt="" />
+                <img className='rounded-xl hover:scale-105 ease-in duration-300' src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29udGFjdCUyMHVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt="" />
             </div>
             <div>
                 <h2 className='py-2'>Name</h2>
