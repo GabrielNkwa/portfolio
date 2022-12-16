@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectItem from './ProjectItem'
 import Link from 'next/link'
-import boozesticksImg from '../public/assets/projects/boozesticks.jpg'
+import boozesticksImg from '../public/assets/projects/boozesticks.png'
 
 
 

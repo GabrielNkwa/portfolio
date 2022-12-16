@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import {RiRadioButtonFill} from 'react-icons/ri'
-import boozesticksImg from '../public/assets/projects/boozesticks.jpg'
+import boozesticksImg from '../public/assets/projects/boozesticks.png'
 
 
 const boozesticks = () => {

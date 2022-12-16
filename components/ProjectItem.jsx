@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import boozesticksImg from '../public/assets/projects/boozesticks.jpg'
+
 
 const ProjectItem = ({ title, backgroundImg, projectUrl}) => {
   return (
