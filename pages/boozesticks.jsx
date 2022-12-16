@@ -22,12 +22,7 @@ const boozesticks = () => {
             <p>Project</p>
             <h2>Overview</h2>
             <p className='col-span-4'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptas unde, nihil fugiat explicabo cupiditate. 
-                Mollitia officia commodi suscipit facere error aperiam ut soluta vel. Perspiciatis velit esse optio praesentium. 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde earum maiores sapiente cum? Esse quisquam nesciunt vero, aperiam soluta iste,
-                rem voluptatum consectetur ex accusamus in mollitia rerum adipisci tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                 Aperiam quas dolore odio. Quo incidunt voluptatum temporibus magni explicabo laboriosam, 
-                 doloribus ex hic error minus accusantium itaque tenetur natus unde neque!
+               An E Commerce website consisting of a simple storefront linked to  Commerce Js, which is a flexible commerce engine for businesses. 
                  </p> 
                 <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
                  <button className='px-8 py-2 mt-4'>Github Link</button>  
