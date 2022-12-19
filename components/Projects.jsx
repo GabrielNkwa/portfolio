@@ -2,6 +2,7 @@ import React from 'react'
 import ProjectItem from './ProjectItem'
 import boozesticksImg from '../public/assets/projects/boozesticks.png'
 import portfolioImg from '../public/assets/projects/portfolio.png'
+import storefrontImg from '../public/assets/projects/storefront.png'
 
 
 
@@ -23,6 +24,11 @@ const Projects = () => {
                title='Portfolio' 
                backgroundImg={portfolioImg} 
                projectUrl='/portfolio'
+               />
+                <ProjectItem 
+               title='Storefront' 
+               backgroundImg={storefrontImg} 
+               projectUrl='/storefront'
                />
                
               

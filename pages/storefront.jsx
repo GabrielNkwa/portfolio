@@ -2,17 +2,17 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import {RiRadioButtonFill} from 'react-icons/ri'
-import portfolioImg from '../public/assets/projects/portfolio.png'
+import storefrontImg from '../public/assets/projects/storefront.png'
 
 
-const portfolio = () => {
+const storefront = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10'/>
-        <Image className='absolute z-1' layout='fill' objectFit='cover' src={portfolioImg} alt='' />
+        <Image className='absolute z-1' layout='fill' objectFit='cover' src={storefrontImg} alt='' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 p-2 text-white' >
-            <h2 className='py-2'>Portfolio Website</h2>
+            <h2 className='py-2'>ACME Storefront</h2>
             <h3>Next Js / Tailwind</h3>
         </div>
       </div>
@@ -32,13 +32,13 @@ const portfolio = () => {
                 <p className='text-center font-bold pb-2'>Technologies</p>
                 <div className='grid-cols-3 md:grid-cols-1'>
                         <p className='text-gray-600 py-2 flex items-center'>
-                            <RiRadioButtonFill className='pr-1'/>React
+                            <RiRadioButtonFill className='pr-1'/>Next Js
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
                             <RiRadioButtonFill className='pr-1'/>Javascript
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
-                            <RiRadioButtonFill className='pr-1'/>Tailwind
+                            <RiRadioButtonFill className='pr-1'/>Vercel
                             </p>
                            
                 </div>
@@ -54,4 +54,4 @@ const portfolio = () => {
   )
 }
 
-export default portfolio
+export default storefront
