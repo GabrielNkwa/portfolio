@@ -11,7 +11,7 @@ import js from '../images/js.png';
 import mongodb from '../images/mongodb.png';
 import laravel from '../images/laravel.png';
 import node from '../images/nodejs.png';
-import react from '../images/react.png';
+import react from '../images/React.png';
 import next from '../images/nextjs.png';
 import python from '../images/python.png';
 import vite from '../images/vite.png';
